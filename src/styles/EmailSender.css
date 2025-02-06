@@ -1,0 +1,99 @@
+/* Email sender form container */
+.email-sender {
+    width: auto;
+    max-width: 4500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Back button */
+  .back-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .back-button:hover {
+    text-decoration: underline;
+  }
+  
+  /* Title styling */
+  .email-sender h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Form group styles */
+  /* .form-group {
+    margin-bottom: 15px;
+  } */
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    resize: none;
+    height: 120px;
+  }
+  
+  /* Buttons inside the form */
+  .email-sender button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .email-sender button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .email-sender button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Message display */
+  .email-sender p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .email-sender {
+      width: 90%;
+    }
+  }
+  

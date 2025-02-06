@@ -1,0 +1,53 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.auth-container {
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.toggle-btn {
+  background-color:white;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+}
+
+.toggle-btn:hover {
+  background-color: #0056b3;
+}
+
+.email-client {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar button {
+  display: block;
+  margin: 10px 0;
+}
+
+.email-list {
+  flex: 1;
+  padding: 20px;
+}
