@@ -18,7 +18,7 @@ const EmailSender = ({ setView }) => {
       const recipients = to.split(",").map((email) => email.trim());
 
       // Send email data to backend
-      const response = await axios.post("http://localhost:5000/api/send-email", {
+      const response = await axios.post("https://email-backend-4l8f.onrender.com/api/send-email", {
         from,
         to: recipients,
         subject,
